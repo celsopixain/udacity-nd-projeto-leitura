@@ -3,7 +3,7 @@
 
 ## Objetivo do Projeto:
 
-Esse projeto foi desenvolvido para Udacity React Nanodegree. O objetivo desse projeto é desenvolver um aplicativo com a tecnologia react-redux.
+Este é um projeto desenvolvido como requisito do Nanodegree React da Udacity. O usuário poderá fazer posts a respeito de determinados assuntos, comentar em seus posts ou em posts de outros usuários, e votar positivamente ou negativamente em posts e comentários. O usuário é capaz também de editar posts e comentários feitos. Desta forma, o objetivo desse projeto é desenvolver um aplicativo com a tecnologia react-redux.
 
 ## Como carregar a aplicação
 
@@ -21,6 +21,22 @@ npm start
 ```
 
 Uma nova janela do navegador deve abrir automaticamente a exibição do aplicativo. Se não, navegue até [http://localhost:3000/](http://localhost:3000/) em seu navegador
+
+# Api Server
+
+Este aplicativo só funcionará com o servidor de api deste repositório. 
+
+### Instalando dependências do Servidor de Api
+
+`cd api-server`
+
+`npm install`
+
+### Executando
+
+`node server`
+
+Mais informações da api e como usá-la pode ser encontrado neste [README](https://github.com/enebeze/leitura-udacity/blob/master/api-server/README.md).
 
 ### Recursos e Documentação:
 * [Create-react-app Documentation](https://github.com/facebookincubator/create-react-app)
